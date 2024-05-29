@@ -1,0 +1,470 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 500px;
+    height: 10000px;
+    background-color: white;
+}
+
+.header_box {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border: transparent solid 5px;
+    position: relative;
+    border: 1px solid gray;
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    left: 15px;
+    border: 1px solid gray;
+    top: 15px;
+    position: absolute;
+}
+
+.grow {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    margin-left: 170px;
+    margin-top: 55px;
+    border: 1px solid gray;
+    top: 100px;
+    position: absolute;
+}
+
+.row {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    left: 340px;
+    top: 330px;
+    border: 1px solid gray;
+    position: absolute;
+}
+
+.header_item {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border: transparent solid 5px;
+    position: relative;
+    border: 1px solid gray;
+    display: flex;
+}
+
+.title {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border: 1px solid gray;
+    margin-top: 15px;
+}
+
+.type {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border: 1px solid gray;
+    margin-top: 15px;
+}
+
+.viewport {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border: 1px solid gray;
+    margin-top: 15px;
+}
+
+.shortcut {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border: transparent solid 5px;
+    position: relative;
+    border: 1px solid gray;
+}
+
+.rel {
+    width: 120px;
+    height: 120px;
+    border: 1px solid gray;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    position: absolute;
+}
+
+.name {
+    width: 120px;
+    height: 120px;
+    border: 1px solid gray;
+    position: absolute;
+    top: 100px;
+    left: 130px;
+    position: absolute;
+}
+
+.DOCTYPE {
+    width: 120px;
+    height: 120px;
+    border: 1px solid gray;
+    position: absolute;
+    top: 190px;
+    left: 215px;
+}
+
+.box_big {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border: transparent solid 5px;
+    position: relative;
+    border: 1px solid gray;
+}
+
+.box_small {
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+
+.box_meddle {
+    width: 120px;
+    height: 120px;
+    background-color: blue;
+    position: absolute;
+    top: 100px;
+    left: 130px;
+    position: absolute;
+}
+
+.box_hard {
+    width: 120px;
+    height: 120px;
+    background-color: green;
+    position: absolute;
+    top: 190px;
+    left: 215px;
+}
+
+.box_easy {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border: transparent solid 5px;
+    position: relative;
+    border: 1px solid gray;
+}
+
+.box_expert {
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+
+.box_perfectiv {
+    width: 120px;
+    height: 120px;
+    background-color: blue;
+    position: absolute;
+    top: 100px;
+    left: 130px;
+}
+
+.box_long {
+    width: 120px;
+    height: 120px;
+    background-color: green;
+    margin-top: 180px;
+    margin-left: 210px;
+}
+
+.box_short {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border: transparent solid 5px;
+    position: relative;
+    border: 1px solid gray;
+}
+
+.grow_small {
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    top: 15px;
+    left: 50px;
+    position: absolute;
+}
+
+.grow_big {
+    width: 120px;
+    height: 120px;
+    background-color: blue;
+    margin-top: 100px;
+    margin-left: 130px;
+}
+
+.grow_long {
+    width: 120px;
+    height: 120px;
+    background-color: green;
+    position: absolute;
+    top: 190px;
+    left: 215px;
+}
+
+.grow_easy {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border: transparent solid 5px;
+    position: relative;
+    border: 1px solid gray;
+}
+
+.grow_hard {
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    top: 15px;
+    left: 50px;
+    position: absolute;
+}
+
+.grow_exspert {
+    width: 120px;
+    height: 120px;
+    background-color: blue;
+    margin-top: 100px;
+    margin-left: 130px;
+}
+
+.grow_meddle {
+    width: 120px;
+    height: 120px;
+    background-color: green;
+    margin-top: 0px;
+    margin-left: 215px;
+    position: absolute;
+}
+
+.row_easy {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border: transparent solid 5px;
+    border: 1px solid gray;
+}
+
+.row_hard {
+    width: 400px;
+    height: 400px;
+    border: 1px solid gray;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.row_exspert {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border: transparent solid 5px;
+    border: 1px solid gray;
+    position: relative;
+}
+
+.row_perfectiv {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.row_long {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.row_short {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border: transparent solid 5px;
+    border: 1px solid gray;
+    position: relative;
+}
+
+.row_meddle {
+    width: 180px;
+    height: 500px;
+    border: 1px solid gray
+}
+
+.grow_short {
+    width: 165px;
+    height: 165px;
+    background-color: red;
+    border-radius: 100px;
+}
+
+.grow_along {
+    width: 165px;
+    height: 165px;
+    background-color: yellow;
+    border-radius: 100px;
+}
+
+.grow_life {
+    width: 165px;
+    height: 165px;
+    background-color: green;
+    border-radius: 100px;
+    position: absolute;
+    top: 325px;
+}
+
+.road {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border: transparent solid 5px;
+    border: 1px solid gray;
+    position: relative;
+}
+
+.road_big {
+    width: 450px;
+    height: 450px;
+    background-color: green;
+    border-radius: 1000px;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    display: flex;
+}
+
+.road_life {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
+
+.road_short {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 270px;
+}
+
+.road_long {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    position: absolute;
+    top: 180px;
+    left: 180px;
+}
+
+.road_easy {
+    width: 230px;
+    height: 35px;
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    left: 110px;
+}
+
+.road_prerfictiv {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border: transparent solid 5px;
+    border: 1px solid gray;
+    position: relative;
+}
+
+.road_best {
+    width: 450px;
+    height: 450px;
+    background-color: gold;
+    border-radius: 1000px;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    display: flex;
+}
+
+.road_along {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
+
+.road_recpect {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 270px;
+}
+
+.road_white {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 100px;
+    position: absolute;
+    top: 180px;
+    left: 180px;
+}
+
+.road_glad {
+    width: 230px;
+    height: 35px;
+    background-color: white;
+    border-radius: 0px 0px 1000px 1000px;
+    position: absolute;
+    top: 300px;
+    left: 110px;
+}
+.text{
+    width: 500px;
+    height: 500px;
+    
+}
